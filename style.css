@@ -334,11 +334,14 @@
     align-items: center;
     gap: 15px;
   }
-  
   .avatar-box {
     background: var(--bg-gradient-onyx);
-    border-radius: 20px;
-  }
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden; /* Ensures the content inside is clipped to the rounded shape */
+}
+
   
   .info-content .name {
     color: var(--white-2);
